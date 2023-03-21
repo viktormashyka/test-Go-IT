@@ -1,5 +1,4 @@
-// import { Button } from 'components/Button/Button';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Wrapper, Text1, Text2, Button, Title } from './Card.styled';
 
 export const Card = () => {
@@ -9,7 +8,6 @@ export const Card = () => {
 
   const onFollow = () => {
     setIsChecked(!isChecked);
-    console.log('isChecked: ', isChecked);
     !isChecked ? setFollowers(followers + 1) : setFollowers(followers - 1);
   };
 
@@ -30,3 +28,5 @@ export const Card = () => {
     </Wrapper>
   );
 };
+
+//TODO localStorage for followers and isChecked
