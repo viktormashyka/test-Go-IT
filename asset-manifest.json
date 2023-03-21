@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-Go-IT/static/css/main.710b5b6c.css",
+    "main.js": "/test-Go-IT/static/js/main.d9fb661b.js",
+    "static/media/Picture.png": "/test-Go-IT/static/media/Picture.032662a2a907475127d7.png",
+    "static/media/Boy.png": "/test-Go-IT/static/media/Boy.124bb633313c2d5adbe0.png",
+    "index.html": "/test-Go-IT/index.html",
+    "main.710b5b6c.css.map": "/test-Go-IT/static/css/main.710b5b6c.css.map",
+    "main.d9fb661b.js.map": "/test-Go-IT/static/js/main.d9fb661b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.710b5b6c.css",
+    "static/js/main.d9fb661b.js"
+  ]
+}
